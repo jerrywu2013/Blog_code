@@ -4,17 +4,16 @@ abs(-8)
 #平方根(Square root)
 sqrt(25)
 
-#四捨五入
+#上取整函數
 ceiling(3.475)
+ceiling(-5.78)
 
-#無條件捨去
-floor(3.475) 
+#下取整函數
+floor(3.475)
+floor(-5.78)
 
-#無條件捨去
+#無條件捨去取整數
 trunc(8.5355)
-
-#去掉小數的部分且進位
-round(3.855, digits=2)
 
 #去掉小數的部分且進位
 round(3.855, digits=2) 
